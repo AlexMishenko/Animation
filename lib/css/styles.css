@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    margin-top: 10%;
+    width: 600px;
+    height: 600px;
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    animation: 2s infinite linear rotation;
+
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+ }
+ 
+  to {
+    transform: rotate(360deg);
+  }
+}
