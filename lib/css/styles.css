@@ -139,7 +139,7 @@ main {
   border-bottom-right-radius: 28px;
   letter-spacing: 1px;
   margin-bottom: 10px;
-  transition: background 0.5s ease;
+  transition: 0.5s;
   font-weight: bold;
 }
 
@@ -159,7 +159,7 @@ main {
   border-bottom-right-radius: 28px;
   letter-spacing: 1px;
   margin-bottom: 10px;
-  transition: background 0.5s ease;
+  transition: 0.5s;
   font-weight: bold;
 }
 
@@ -179,7 +179,7 @@ main {
   border-bottom-right-radius: 28px;
   letter-spacing: 1px;
   margin-bottom: 10px;
-  transition: background 0.5s ease;
+  transition: 0.5s;
   font-weight: bold;
 }
 
@@ -199,7 +199,7 @@ main {
   border-bottom-right-radius: 28px;
   letter-spacing: 1px;
   margin-bottom: 10px;
-  transition: background 0.5s ease;
+  transition: 0.5s;
   font-weight: bold;
 }
 
@@ -213,7 +213,6 @@ main {
   font-size: 5px;
   display: flex;
   flex-direction: column;
-  flex-content: center;
 }
 
 .element-one {
