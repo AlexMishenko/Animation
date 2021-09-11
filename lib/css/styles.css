@@ -16,14 +16,14 @@ main {
 
 }
 
-div {
+.cod-red {
     background-color: black;
-    width: 400px;
-    height: 400px;
+    width: 310px;
+    height: 310px;
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: 10s infinite linear rotation;
+    animation: 5s infinite linear rotation;
 
 }
 
@@ -39,11 +39,12 @@ div {
 
 .block-two {
     background-color: blanchedalmond;
-    width: 280px;
-    height: 280px;
+    width: 260px;
+    height: 260px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transform: rotate(-2deg);
 }
 
 .block-three {
@@ -53,6 +54,7 @@ div {
   display: flex;
   align-items: center;
   justify-content: center;
+  transform: rotate(-3deg);
 }
 
 .block-four {
@@ -62,11 +64,11 @@ div {
   display: flex;
   align-items: center;
   justify-content: center;
+  transform: rotate(-4deg);
 }
 
 .task-two {
-  background: linear-gradient(50deg, blanchedalmond, #a58c49) ;
-  
+  background: linear-gradient(50deg, blanchedalmond, #a58c49);
 }
 
 .subscribe {
@@ -81,25 +83,13 @@ div {
   font-size: 20px;
   letter-spacing: 5px;
   color: blanchedalmond;
+  transition: all 0.5s ease-out;
 }
 
 .subscribe:hover {
   cursor: pointer;
-  animation: 0.5s 1  pressing;
-  animation-fill-mode: forwards;
-}
-
-@keyframes pressing {
-  from {
-    transform: translateY(0px);
-    box-shadow: 0 0 0 0 black;
- }
- 
-  to {
-    transform: translateY(9px);
-    box-shadow: 0 10px 30px -20px black;
-    
-  }
+  transform: translateY(9px);
+  box-shadow: 0 10px 30px -20px black;
 }
 
 .task-three {
@@ -126,3 +116,153 @@ div {
   animation-fill-mode: forwards;
   background-color: chocolate;
 }
+
+.task-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  width: 600px;
+  height: 400px;
+  background: linear-gradient(50deg, blanchedalmond, #a58c49) ;
+  
+}
+
+.alpha {
+  height: 50px;
+  color: blanchedalmond;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  transition: background 0.5s ease;
+  font-weight: bold;
+}
+
+.alpha:hover {
+  background-color:blanchedalmond;
+  color:black;
+}
+
+.beta {
+  height: 50px;
+  color: blanchedalmond;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  transition: background 0.5s ease;
+  font-weight: bold;
+}
+
+.beta:hover {
+  background-color:blanchedalmond;
+  color:black;
+}
+
+.gamma {
+  height: 50px;
+  color: blanchedalmond;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  transition: background 0.5s ease;
+  font-weight: bold;
+}
+
+.gamma:hover {
+  background-color:blanchedalmond;
+  color:black;
+}
+
+.delta {
+  height: 50px;
+  color: blanchedalmond;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  transition: background 0.5s ease;
+  font-weight: bold;
+}
+
+.delta:hover {
+  background-color:blanchedalmond;
+  color:black;
+}
+
+.button-block {
+  width: 200px;
+  font-size: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-content: center;
+}
+
+.element-one {
+  width: 50%;
+  height: 50%;
+  background-color: linear-gradient(50deg, blanchedalmond, #a58c49) ;
+  border-radius: 50%;
+  border: 7px solid black;
+  box-shadow: 0px 0px 30px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.element-two {
+  width: 95%;
+  height: 95%;
+  background-color: linear-gradient(50deg, blanchedalmond, #a58c49) ;
+  border-radius: 50%;
+  border: 7px solid black;
+  box-shadow: inset 0px 0px 20px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.element-three {
+  width: 97%;
+  height: 97%;
+  display: flex;
+  justify-content: center;
+  animation: 60s infinite linear clock;
+}
+
+@keyframes clock {
+  from {
+    transform: rotate(0deg);
+ }
+ 
+  to {
+    transform: rotate(360deg);
+  } 
+}
+
+.element-four {
+  width: 5%;
+  height: 50%;
+  background-color: black;
+  border-radius: 30%;
+}
+
+
